@@ -1,0 +1,35 @@
+{
+  "files": {
+    "commands.js": "688fcd21bfb4e248ba6741bc91c0ae20dfd8a07019e5522d1d80c9904f18f179",
+    "fix-hookonce.js": "16dae89e2785d8d775cbad89bfc0969ef833ac9a17003c662e6a72ec9c98d99d",
+    "index.js": "37b83542cb1edd767b4dd895de5d0abdc80709cc46d27f7eb8e73f9836ca5d26",
+    "LICENSE": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+    "manifest.json": "732cba8a6298866d7d672c327e6eb9d9e7bf4c56562c23f879ec404ea1e01f7c",
+    "module.json": "ace191dd02b7fbc3d317cfa52e3942a4c8b3988ada2e07498c8a27a1b16926d9",
+    "Newtonsoft.Json.dll": "564e6201dbf6354460d9ca180f0752d50dd7496fff49e05f67a9af42a2e772c7",
+    "README.md": "0b137925287c43c28b6590f1b9720e5d779b6f80ef0f17135677ab2359653535",
+    "ui.js": "9f48b29a6c7d64422c4bca08429c07b98a6e42980cee053153659fd3a44f26dc",
+    "utils.js": "4abf62630e84319aa7b987860a51c9a8d5cddc36806966f42897ca7d14a871fe",
+    "ui/index.html": "324d207b664610fbb7b0e12737e206b489f1833e81020a958440107f38593f9d",
+    "ui/list.js": "16dc77d57028da4f402119fac385a7a6b1cf757d855fb6341d8d6bf12a616b7a",
+    "ui/main.css": "abd92866722efb361d3d9a7050ee5ddab2aa646c28337cf425ade2a6f0ba7cd8",
+    "ui/main.js": "061e02f90db72264a61c9a6c2df2be7ad10a1ce2a6bbc53c7d5911cb31500dec"
+  },
+  "defs": {
+    "S_LOGIN": 10,
+    "S_SPAWN_ME": 2,
+    "S_LOAD_TOPO": 3,
+    "S_ACTION_END": 1,
+    "C_TELEPORT_TO_POS": 1,
+    "C_PLAYER_LOCATION": "raw",
+    "S_CANCEL_CONTRACT": "raw",
+    "S_REQUEST_CONTRACT": 1,
+    "S_VILLAGE_LIST_TO_TELEPORT": 1,
+    "S_LOAD_TELEPORT_TO_POS_LIST": 1,
+    "C_DELETE_TELEPORT_TO_POS_LIST": 1,
+    "S_PCBANGINVENTORY_DATALIST": 1,
+    "C_PCBANGINVENTORY_USE_SLOT": 1,
+    "C_TELEPORT_TO_VILLAGE": 1,
+    "C_ADD_TELEPORT_TO_POS_LIST": 1
+  }
+}
