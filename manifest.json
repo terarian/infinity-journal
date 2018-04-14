@@ -1,18 +1,17 @@
 {
   "files": {
-    "commands.js": "721290b42ab9ccb04a70d5f42a5cb4de42b88acc5ef627ce6cb62ef4220befa7",
-    "fix-hookonce.js": "16dae89e2785d8d775cbad89bfc0969ef833ac9a17003c662e6a72ec9c98d99d",
+    "commands.js": "eb588cf154ee0b3fc3003d98cc284adb68e5708e32d432aa57d856ced0912da3",
+    "fix-hookonce.js": "16e022ba746bad24a0b23e61feed4a22d7eade308232c4be56f4db6a6ce65154",
     "index.js": "69d2004db831516e95f562ae656f55c119db81f359026a61539c1afc572dc89e",
     "LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
-    "manifest.json": "6990f61e5943f8c5f7e2d9108f6d2f82874ef88c4fa51e318c81d031b5731fdb",
-    "module.json": "ace191dd02b7fbc3d317cfa52e3942a4c8b3988ada2e07498c8a27a1b16926d9",
+    "module.json": "7c708d408ac1e29e2f05d50e43a84ad3fbef3df82d2fadb3bd6d3ecd9a5771c6",
     "README.md": "156159d0375c1ffcfd603d4af3bd2545b8923f30532e3603c337b44f99f947b9",
-    "ui.js": "9f48b29a6c7d64422c4bca08429c07b98a6e42980cee053153659fd3a44f26dc",
-    "utils.js": "4abf62630e84319aa7b987860a51c9a8d5cddc36806966f42897ca7d14a871fe",
-    "ui/index.html": "324d207b664610fbb7b0e12737e206b489f1833e81020a958440107f38593f9d",
-    "ui/list.js": "16dc77d57028da4f402119fac385a7a6b1cf757d855fb6341d8d6bf12a616b7a",
-    "ui/main.css": "abd92866722efb361d3d9a7050ee5ddab2aa646c28337cf425ade2a6f0ba7cd8",
-    "ui/main.js": "061e02f90db72264a61c9a6c2df2be7ad10a1ce2a6bbc53c7d5911cb31500dec"
+    "ui.js": "5d479e657245acf4b763940cba5f1f8c3d08d313e123d131ad7a896053e2a184",
+    "utils.js": "1d81840c3f3d57266823c3cb1cecb2c7b3a63b790041ac2276da7720a6ec3b2c",
+    "ui/index.html": "7527f2c9b5a0c6c58eb99ff361847a159174dd791e4a9e53a6894941ded2975c",
+    "ui/list.js": "6e8ee6c8c7aef7ca3916c368f609c48aa9ec1cf431ee842e70c4a85650735fc0",
+    "ui/main.css": "5c0b16a47f08d90ee50b5e2730f9f29440d120f23b5536111881bbab45f99dc8",
+    "ui/main.js": "42d03b165c02b54e2653f06644b87e985f4a30c9458e5e3588ff8f152acbe0fc"
   },
   "defs": {
     "S_LOGIN": 10,
@@ -20,6 +19,8 @@
     "S_LOAD_TOPO": 3,
     "S_ACTION_END": 1,
     "C_TELEPORT_TO_POS": 1,
+    "C_PLAYER_LOCATION": "raw",
+    "S_CANCEL_CONTRACT": "raw",
     "S_REQUEST_CONTRACT": 1,
     "S_VILLAGE_LIST_TO_TELEPORT": 1,
     "S_LOAD_TELEPORT_TO_POS_LIST": 1,

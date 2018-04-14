@@ -17,7 +17,6 @@ const {
 const journalOptions = require("./commands");
 const command = require("command");
 const webui = require("./ui");
-const fixHookOnce = require("./fix-hookonce");
 
 /**
  * UNBREAK SOME REGIONS
@@ -154,7 +153,6 @@ function InfiniteJournalism(_) {
   const ctx = initCtx({ send: makeSender(_), cmd: command(_) });
   const hook = makeHook(_, ctx);
   webui(_, ctx);
-  fixHookOnce(_);
 
   ctx.cmd.add("journal", journalOptions, ctx);
 
