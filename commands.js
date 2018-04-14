@@ -6,6 +6,7 @@ const {
 } = require("./utils");
 const { push } = Array.prototype;
 const tryRequire = () => {
+  delete require.cache[require.resolve(journalPath)];
   try { return require(journalPath); }
   catch(_) { return []; }
 };
@@ -16,7 +17,7 @@ function journalOptions() {
   if (!argLen) {
     if (!this.enabled) {
       customLocations.length = 0;
-      push.apply(customLocations, tryRequire);
+      push.apply(customLocations, tryRequire());
     }
     return this.cmd.message(`Journal ${(this.enabled = !this.enabled) ? "ena" : "disa"}bled`);
   }
